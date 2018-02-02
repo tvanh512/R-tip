@@ -1,0 +1,26 @@
+R-studio
+
+Click Insert R to insert R code
+```{r include=FALSE}
+require(mosaic)
+require(tigerstats)
+```
+
+require():using package
+include = FALSE: don't show the import package
+
+```{r echo = FALSE}
+```
+echo = FALSE: don't show the code but still show the output
+
+# then space : Title
+## then space : Section
+> block quote. Can use tab before that
+*text* : Italic
+** text **: bold
+* then space :bullet
+four space then *: sub bullet
+$H_1$: math for subscript
+
+```{r fig.width = 4,fig.height = 3}
+```
