@@ -24,3 +24,6 @@ $H_1$: math for subscript
 
 ```{r fig.width = 4,fig.height = 3}
 ```
+
+Install package:
+install.packages("arules")
