@@ -27,3 +27,9 @@ $H_1$: math for subscript
 
 Install package:
 install.packages("arules")
+
+
+iris %>% head() %>% summary()
+Thus iris %>% head() %>% summary() is equivalent to summary(head(iris)).
+Some people prefer chaining to nesting because the functions applied can be read
+from left to right rather than from inside out.
